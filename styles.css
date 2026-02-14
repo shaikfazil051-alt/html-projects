@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color: bisque;
+  }
+  .webpage{
+    border: 2px solid;
+    background-color: gray;
+    border-radius: 25px;
+    margin: 20px;
+  }
+  .clr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1{
+    color: rgb(3, 29, 116);
+  }
+  .facebook{
+   color: aliceblue;
+    background-color: gray;
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+    padding: 5px;
+  }
+  .links{
+  padding: 2px;
+  margin: 5px;
+  margin-left:auto;
+  width: 50%;
+  display: inline-block;
+  }
+  .text{
+    margin-left:30px;
+    padding: 5px;
+  
+  }
+  .password{
+    margin-left: 30px;
+    padding: 5px;
+  }
+  .login{
+    margin-left: 30px;
+    padding: 5px;
+  }
+  .new-account{
+    margin-left: 45px;
+    padding: 5px;
+    background-color: green;
+  }
+  
