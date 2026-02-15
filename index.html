@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Basics</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header><h1 class="h1">STRUCTURE OF HTML & CSS</H1></header>
+    <nav class="toplinks">
+      <a href="./page1.html">Contact</a>
+      <a href="./page2.html">About</a>
+      <a href="./page3.html">Courses</a>
+      <label for="text">Search:</label>
+      <input class="classes"type="text" id="text" placeholder="search">
+    </nav>
+     <div>
+    <img class="html-image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cNJwHzAvDlpg3MGoKNavkR8hY4DoUDDhwg&s" width="400" alt="imageof htmlcss" />
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOeN49qEg1I1w-HWTAussfHx_ENs5pP_MMQ&s" width="250" alt="htmlcss-image">
+    </div>
+  <main>
+    <div class="team">
+    <header><h2>Structure of HTML</h2></header>
+    <section class="parasection">
+      <article>
+        <ol class="tags">
+          <p class="htmlconcepts1">
+          <li><strong>HTML tag :</strong>
+          &lt;html&gt;&lt;/html&gt; It define the html document</li>
+          <li><strong>Head tag :</strong>&lt;head&gt;&lt/head&gt;It i a paired tag.it contain meta dataabout rhe document.we provide external sheets in html head tag</li>
+         <li><strong>Title tag :</strong> &lttitle&gt;&lt/title&gt;It is a sementic tag which define title for a web page</li>
+         <li><strong>Body tag :</strong>&lt;body&gt;&lt;/body&gt;It is a paired tag that containall the visible content (text, images, links) that users see.</li>
+         <li><strong>Paragraph tag:</strong>&lt;p&gt;&lt;/p&gt;Used for standard blocks of text.</li>
+         <li><strong>Anchor tag :</strong> Creates hyperlinks; requires an href attribute to point to a URL.</li>
+         <li><strong>Image tag :</strong> Embeds photos; requires a src (source) and alt (description) attribute. This is a void element, meaning it has no closing tag.</li>
+         <li><strong>Lists tag :</strong>&lt;ul&gt;: Unordered (bulleted) list.</li>
+          &lt;ol&gt;: Ordered (numbered) list.
+          &lt;li&gt;: An individual list item used inside &lt;ul&gt; or &lt;ol&gt;.
+         </li>
+          </p>
+        </ol>
+        <ol class="inputs">
+          <header><h2 class="html">Html Cheatsheet</h2></header>
+         <p class="htmlconcepts2">
+          <div>
+          <li><label for="text">&lt;Input type="text"/&gt;</label>
+          <input type="text" placeholder="some text"/></li>
+          </div>
+          <div>
+          <li><label for="password">&lt;Input type="password"/&gt;</label>
+          <input type="password" placeholder="password"/></li>
+          </div>
+          <div>
+          <li><label for="button">&lt;Input type="button"/&gt;</label>
+          <input type="button" id="button"placeholder="button"/></li>
+          </div>
+          <div>
+          <li><label for="checkbox">&lt;Input type="checkbox"/&gt;</label>
+          <input type="checkbox" placeholder="checkbox"/></li>
+          </div>
+          <div>
+          <li><label for="email">&lt;Input type="emain"/&gt;</label>
+          <input type="email" placeholder="email"/></li>
+          </div>
+          <div>
+          <li><label for="number">&lt;Input type="number"/&gt;</label>
+          <input type="number" id="number" placeholder="123456789"/></li>
+          </div>
+          <div>
+          <li><label for="range">&lt;Input type="range"/&gt;</label>
+          <input type="range" id="range" /></li>
+          </div>
+          <div>
+          <li><label for="date">&lt;Input type="date"/&gt;</label>
+          <input type="date" id="date" /></li>
+          </div>
+          <div>
+          <li><label for="time">&lt;Input type="time"/&gt;</label>
+          <input type="time" id="time" /></li>
+          </div>
+         </p>
+        </ol>
+      </article>
+    </section>
+    </div>
+        <header><h2 class="basics">Basics About CSS Styles</h2></header>
+        <div class="csspara">
+        <img  class="csscolor" src="https://miro.medium.com/0*wt7Gnb5RLQuWKtHV.jpg" width="500" alt="colorcodeofcss" />
+        <section>
+          <article>
+          <ul>
+           <p> 
+            To build a great website, you need to understand how to apply CSS (the "where") and how the browser calculates space (the "box").
+            Here is a breakdown of the three ways to apply CSS and the fundamental spacing properties.
+           </p>
+            </ul>
+           <ol class="listforcss">
+             <li>
+              Three Ways to Apply CSS
+              These methods determine where your style code lives in relation to your HTML.
+              Method	Location	Best For...
+              Inline	Directly inside an HTML tag using the style attribute.	Quick fixes or testing a single element.
+              Internal	Inside a &lt;style&gt; tag within the &lt;head&gt; of an HTML file.	Single-page websites where you want everything in one file.
+              External	In a separate .css file linked via the &lt;link&gt; tag.	Best Practice. Keeping styles consistent across many pages. </li>
+              <li><strong>Padding :</strong>
+                Padding is the internal space between the content (like text) and the border of the element.
+                It increases the clickable area of a button.
+                It is affected by the background color of the element.
+                CSS: padding: 20px;</li>
+                <li><strong>Margin</strong>
+                Margin is the external space outside the border of the element.
+                It creates distance between one element and its neighbors.
+                It is always transparent (you see the page background through it).
+                CSS: margin: 20px;</li>
+                 <li><strong>Block vs. Inline Elements</strong>
+                This describes how elements sit on the page by default.
+                Block Elements: These always start on a new line and take up the full width available (100%).</li>
+                Examples: &lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;tul&gt;.
+                </ol>
+          </article>
+        </section>
+        </div>
+    </main>
+</body>
+</html>
